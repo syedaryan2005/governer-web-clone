@@ -82,8 +82,9 @@ function Home() {
             <Image
               src="/cover.png"
               alt="piaic"
-              layout="fill"
+              fill
               className="object-cover"
+              priority
             />
           </div>
         </section>
@@ -119,27 +120,24 @@ function Home() {
           <Image
             src="/image1.jpg"
             alt="image1"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-lg"
+            fill
+            className="object-cover rounded-lg"
           />
         </div>
         <div className="relative w-full h-full shadow-2xl shadow-[#A7A7A7] rounded-lg">
           <Image
             src="/image2.jpg"
             alt="image2"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-lg"
+            fill
+            className="object-cover rounded-lg"
           />
         </div>
         <div className="relative w-full h-full shadow-2xl shadow-[#A7A7A7] rounded-lg">
           <Image
             src="/image3.jpg"
             alt="image3"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-lg"
+            fill
+            className="object-cover rounded-lg"
           />
         </div>
       </div>
@@ -149,18 +147,16 @@ function Home() {
           <Image
             src="/slide1.jpg"
             alt="slide1"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-lg"
+            fill
+            className="object-cover rounded-lg"
           />
         </div>
         <div className="relative w-full h-full rounded-lg">
           <Image
             src="/slide3.jpg"
             alt="slide3"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-lg"
+            fill
+            className="object-cover rounded-lg"
           />
         </div>
       </div>
@@ -176,9 +172,8 @@ function Home() {
           <Image
             src="/program.jpg"
             alt="Programming Fundamentals"
-            height={160}
             width={290}
-            objectFit="cover"
+            height={160}
             className="rounded-t-xl"
           />
           <div className="p-4 text-center">
@@ -192,9 +187,8 @@ function Home() {
           <Image
             src="/nextjs.jpg"
             alt="Web2 Using NextJS"
-            height={160}
             width={290}
-            objectFit="cover"
+            height={160}
             className="rounded-t-lg"
           />
           <div className="p-4 text-center">
@@ -208,9 +202,8 @@ function Home() {
           <Image
             src="/earn.jpg"
             alt="Earn as You Learn"
-            height={160}
             width={290}
-            objectFit="cover"
+            height={160}
             className="rounded-t-lg"
           />
           <div className="p-4 text-center">
@@ -230,9 +223,8 @@ function Home() {
           <Image
             src="/AI.jpg"
             alt="AI"
-            height={160}
             width={300}
-            objectFit="cover"
+            height={160}
             className="rounded-t-lg"
           />
           <div className="p-4 text-center">
@@ -245,9 +237,8 @@ function Home() {
           <Image
             src="/metaverse.jpg"
             alt="metaverse"
-            height={160}
             width={300}
-            objectFit="cover"
+            height={160}
             className="rounded-t-lg"
           />
           <div className="p-4 text-center">
@@ -260,9 +251,8 @@ function Home() {
           <Image
             src="/cloudComputing.jpg"
             alt="cloud"
-            height={160}
             width={300}
-            objectFit="cover"
+            height={160}
             className="rounded-t-lg"
           />
           <div className="p-4 text-center">
@@ -275,9 +265,8 @@ function Home() {
           <Image
             src="/iot.jpg"
             alt="iot"
-            height={160}
             width={300}
-            objectFit="cover"
+            height={160}
             className="rounded-t-lg"
           />
           <div className="p-4 text-center">
@@ -290,9 +279,8 @@ function Home() {
           <Image
             src="/genomics.jpg"
             alt="genomics"
-            height={160}
             width={300}
-            objectFit="cover"
+            height={160}
             className="rounded-t-lg"
           />
           <div className="pl-5 text-center">
@@ -305,9 +293,8 @@ function Home() {
           <Image
             src="/automation.jpg"
             alt="automation"
-            height={160}
             width={300}
-            objectFit="cover"
+            height={160}
             className="rounded-t-lg"
           />
           <div className="pl-5 text-center p-1">
